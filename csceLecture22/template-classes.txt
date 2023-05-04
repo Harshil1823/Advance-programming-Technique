@@ -1,0 +1,17 @@
+template class - the structure / functionality is independent of the 
+                 type of data member the class holds, so we create the structure
+                 with a generic class/data type label and the compiler creates the
+                 version used
+
+To create the template class
+    template<class indentifier>
+  above the class definition 
+
+To instanitiate an object of the template class
+    classname<type-to-use-for-the-tempalte>object-name
+
+To implement a member function outside of the class definition, then 
+we'll precede the implementation with 
+    tempalte<class indentifier>
+and we'll tie the function to the class with the template as well 
+    class<Identifier>::member-function-name

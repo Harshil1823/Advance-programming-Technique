@@ -1,0 +1,10 @@
+Template = pattern for a function or class
+
+overloading a function - the programmer implements multiple versions of the
+function that work for different types or different numbers of parameters. 
+Benefit is to the user of the function in that the user doesn't have to remember a bunch of different function names.
+
+IF the implementation of a function is independent of the types of the arguments,
+we can use a template for the type and allow the compiler/linker to create the 
+versions needed (overload as necessary for us without us having to write the
+same implementation a bunch of times).
