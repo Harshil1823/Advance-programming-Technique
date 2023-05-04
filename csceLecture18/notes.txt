@@ -1,0 +1,26 @@
+//Today: namespaces and intro to inheritance
+
+//To create a namespace or to add something to a namespace
+    namespace name
+    {
+        
+    } // namespace name
+
+TO use items within the namespace there are 3 options
+1.namespacename::itemname
+2.using definition: using namespacename::itemname
+3. using directive for entire namespace: using namespace namespacename
+
+composition = "has a" relationship. A class HAS objects of another as data members
+e.g Forecase has temperature objects as data members
+
+inheritance = "is a" relationship. A class is a new version of an existing class
+
+Rectangle class 
+Square class
+square is a Rectangle
+
+Compiling them like this g++ -std=c++17 -c -I . fileName.cc -- compile everything you need compiled
+ and then it will appear as fileName.o
+Then you link your fileName.o file using the command below
+Linking them like this ╰─ g++ rectangle.o test_shape.o  ─╯

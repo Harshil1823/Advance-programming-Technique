@@ -1,0 +1,9 @@
+Polymorphism - takes multiple forms - changes based on situation
+
+Virtual functions - our means of creating Polymorphism with our functions 
+                    in c++ 
+
+redefined functions: functions calls are bound at compile time based on the way the pointer 
+                     on the left was declared 
+Virtual functions: function calls bounds at run time based on the type of 
+                    object the pointer points at the time
